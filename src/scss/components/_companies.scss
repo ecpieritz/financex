@@ -1,0 +1,9 @@
+.fx-companies{
+  background-color: $fx-green;
+  padding: 83px 0;
+  .container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
