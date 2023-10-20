@@ -1,4 +1,5 @@
 import React from 'react'
+import img from '../assets/img/fx-banner__img.png'
 
 function HeroBanner() {
   return (
@@ -12,7 +13,7 @@ function HeroBanner() {
             <a className='fx-btn' href="#about">Get Started</a>
           </div>
           <div className="col-6">
-
+            <img className='fx-banner__img' src={img} alt="credit card with green circle" />
           </div>
         </div>
       </div>
