@@ -1,4 +1,3 @@
-import { Accordion } from "react-bootstrap";
 import "./scss/index.scss";
 
 function App() {
