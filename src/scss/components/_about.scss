@@ -1,10 +1,19 @@
 .fx-about{
   margin-top: 80px;
+  height: 500px;
   .container-fluid{
     .row{
       .col-6{
         h2{
           margin-bottom: 40px;
+        }
+      }
+      .col-3{
+        .fx-btn{
+          &.modal-btn{
+            position: absolute;
+            right: 0;
+          }
         }
       }
     }
