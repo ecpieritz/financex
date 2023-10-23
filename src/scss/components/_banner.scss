@@ -7,18 +7,18 @@
   background-repeat: no-repeat;
   background-position: top left;
   background-size:contain;
-  z-index: -1;
   padding-top: 180px;
   margin-bottom: 60px;
-
+  
   p{
     margin: 40px 0 50px;
     width: 90%;
   }
-
+  
   &__img{
     position: absolute;
     top: -40px;
     right: -25%;
+    z-index: -5;
   }
 }
