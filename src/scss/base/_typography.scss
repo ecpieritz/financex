@@ -7,6 +7,9 @@ h1{
 h2{
   font-size: 48px;
   font-weight: 700;
+  @media(max-width: 1060px){
+    font-size: 40px;
+  }
 }
 h3{
   font-size: 32px;
