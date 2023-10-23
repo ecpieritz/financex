@@ -8,7 +8,7 @@ function About() {
     <section className="fx-about">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6 col-sm-12">
             <h4>About Us</h4>
             <h2>
               Browse our
@@ -20,7 +20,55 @@ function About() {
               <FontAwesomeIcon icon={faArrowRightLong} />
             </a>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-sm-12">
+            <hr />
+            <p>
+              <strong>Checking accounts</strong>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor
+            </p>
+            <AboutModal />
+          </div>
+          <div className="col-lg-3 col-sm-12">
+            <hr />
+            <p>
+              <strong>Checking accounts</strong>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor
+            </p>
+            <AboutModal />
+          </div>
+          <div className="col-lg-3 col-sm-12">
+            <hr />
+            <p>
+              <strong>Checking accounts</strong>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor
+            </p>
+            <AboutModal />
+          </div>
+          <div className="col-lg-3 col-sm-12">
+            <hr />
+            <p>
+              <strong>Checking accounts</strong>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor
+            </p>
+            <AboutModal />
+          </div>
+          <div className="col-lg-3 col-sm-12">
             <hr />
             <p>
               <strong>Checking accounts</strong>
