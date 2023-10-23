@@ -36,7 +36,8 @@ body {
 }
 
 .fx-btn {
-  border: 2px solid $fx-green;
+  &.outline{
+    border: 2px solid $fx-green;
   color: $fx-green;
   overflow: hidden;
   padding: 1rem 2rem;
@@ -66,7 +67,6 @@ body {
     z-index: -1;
   }
     
-    
   &:hover{
     &::after{
     transform: translate(0, 0);
@@ -80,4 +80,7 @@ body {
     will-change: transform;
     text-decoration: none;
   }
+  }
+
+  
 }

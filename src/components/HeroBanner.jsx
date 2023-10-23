@@ -12,7 +12,7 @@ function HeroBanner() {
             <h4 className='fx-text green'>Welcome! Future Platform</h4>
             <h1>The World's Most Modern Card <span className='fx-text green'>Platform</span></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-            <a className='fx-btn' href="#about">
+            <a className='fx-btn outline' href="#about">
               Get Started
               <FontAwesomeIcon icon={faArrowRightLong} />
             </a>
