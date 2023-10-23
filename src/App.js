@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Companies from "./components/Companies";
 import "./scss/index.scss";
 import About from "./components/About";
+import Benefits from "./components/Benefits";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Companies />
         <About />
+        <Benefits />
       </main>
     </div>
   );
