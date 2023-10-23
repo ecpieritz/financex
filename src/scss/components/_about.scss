@@ -1,3 +1,12 @@
 .fx-about{
   margin-top: 80px;
+  .container-fluid{
+    .row{
+      .col-6{
+        h2{
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
 }

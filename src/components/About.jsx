@@ -7,7 +7,14 @@ function About() {
     <section className='fx-about'>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-6"></div>
+          <div className="col-6">
+            <h4>About Us</h4>
+            <h2>Browse our<br />services & <span className='fx-text green'>offerings</span></h2>
+            <a className='fx-btn' href="#contact">
+              Get Started
+              <FontAwesomeIcon icon={faArrowRightLong} />
+            </a>
+          </div>
           <div className="col-3"></div>
           <div className="col-3"></div>
           <div className="col-3"></div>
