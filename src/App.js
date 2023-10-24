@@ -6,6 +6,7 @@ import About from "./components/About";
 import Benefits from "./components/Benefits";
 import Services from "./components/Services";
 import Customers from "./components/Customers";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Benefits />
         <Services />
         <Customers />
+        <Contact />
       </main>
     </div>
   );
