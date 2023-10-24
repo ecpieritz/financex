@@ -5,7 +5,7 @@ import ServiceImg from '../assets/img/fx-service__img.png'
 
 function Services() {
   return (
-    <section className="fx-services">
+    <section className="fx-services" id="services">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6">
