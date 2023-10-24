@@ -2,9 +2,9 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "x" width = "700" height = "auto">
-  <img src = "x" width = "350" height = "auto">
-  <img src = "x" width = "350" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/financex/425aca4d8f571a089e29e2055fbb07f5137d1529/public/fx-print__01.png" width = "700" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/financex/425aca4d8f571a089e29e2055fbb07f5137d1529/public/fx-print__02.png" width = "350" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/financex/425aca4d8f571a089e29e2055fbb07f5137d1529/public/fx-print__03.png" width = "350" height = "auto">
 </p>
 
 ## 📖 About
