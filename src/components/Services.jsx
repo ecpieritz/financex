@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import ServiceImg from '../assets/img/fx-service__img.png'
 
 function Services() {
   return (
@@ -22,7 +23,9 @@ function Services() {
               <FontAwesomeIcon icon={faArrowRightLong} />
             </a>
           </div>
-          <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <img src={ServiceImg} alt="Visa card over a green circle" />
+          </div>
         </div>
       </div>
     </section>
