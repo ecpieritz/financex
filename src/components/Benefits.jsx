@@ -3,7 +3,7 @@ import mapImg from '../assets/img/fx-benefits__img.png'
 
 function Benefits() {
   return (
-    <section className='fx-benefits'>
+    <section className='fx-benefits' id='benefits'>
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6">

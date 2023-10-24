@@ -5,7 +5,7 @@ import AboutModal from './AboutModal';
 
 function About() {
   return (
-    <section className="fx-about">
+    <section className="fx-about" id="about">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 col-sm-12">

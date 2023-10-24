@@ -86,9 +86,11 @@ body {
   background-color: transparent;
   padding: 0;
   color: $fx-green;
+  outline: none;
   border: none;
   width: 40px;
   height: 40px;
+
   svg{
     width: 40px;
     height: 40px;
