@@ -4,6 +4,7 @@ import Companies from "./components/Companies";
 import "./scss/index.scss";
 import About from "./components/About";
 import Benefits from "./components/Benefits";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Companies />
         <About />
         <Benefits />
+        <Services />
       </main>
     </div>
   );
