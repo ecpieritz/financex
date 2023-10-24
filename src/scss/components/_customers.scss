@@ -1,3 +1,35 @@
 .fx-customers {
   margin-top: 120px;
+  background-color: $fx-green;
+  padding: 120px 0;
+  color: $fx-black;
+
+  h2{
+    margin-bottom: 40px;
+  }
+
+  &__carousel{
+    &__item{
+      margin-bottom: 60px;
+      img{
+        width: 100%;
+      }
+      &__person{
+        padding: 40px 150px 0 40px;
+        h4{
+          text-align: center;
+        }
+        &__name{
+          font-weight: 500;
+          margin-bottom: 0;
+          margin-top: 20px;
+
+        }
+        &__profission{
+          font-size: 14px;
+          font-style: italic;
+        }
+      }
+    }
+  }
 }
