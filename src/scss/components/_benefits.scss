@@ -1,12 +1,25 @@
-.fx-benefits{
+.fx-benefits {
   margin-top: 120px;
-  .container-fluid{
-    p{
+
+  .container-fluid {
+    p {
       margin: 30px 0 80px;
     }
 
-    img{
+    img {
       width: 100%;
+    }
+  }
+
+  &__numbers {
+    p {
+      &.fx-text {
+        margin: 0;
+      }
+    }
+
+    .col-md-4 {
+      text-align: center;
     }
   }
 }
