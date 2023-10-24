@@ -5,6 +5,7 @@ import "./scss/index.scss";
 import About from "./components/About";
 import Benefits from "./components/Benefits";
 import Services from "./components/Services";
+import Customers from "./components/Customers";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Benefits />
         <Services />
+        <Customers />
       </main>
     </div>
   );
