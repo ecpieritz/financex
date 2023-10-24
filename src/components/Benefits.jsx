@@ -1,5 +1,6 @@
 import React from 'react'
 import mapImg from '../assets/img/fx-benefits__img.png'
+import BenefitsNumbers from './BenefitsNumbers'
 
 function Benefits() {
   return (
@@ -10,6 +11,7 @@ function Benefits() {
           <h4>Benefits</h4>
           <h2>We have many users all over the <span className="fx-text green">world</span></h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna</p>
+          <BenefitsNumbers />
           </div>
           <div className="col-md-6">
             <img src={mapImg} alt="World map in dots" />
