@@ -2,14 +2,45 @@
   margin-top: 120px;
 
   .container-fluid {
-    .col-md-6{
+    .col-md-6 {
       p {
         margin: 30px 0 80px;
       }
-  
+
       img {
         width: 100%;
       }
     }
+
+  }
+
+  &__infos {
+    margin-top: 80px;
+
+    .col-lg-4 {
+      border: 1px solid $fx-gray;
+      padding: 40px;
+
+      h3 {
+        margin: 20px 0;
+      }
+
+      &:hover {
+        background-color: $fx-gray;
+
+        .fx-services__infos__icon {
+          background-color: $fx-green;
+        }
+      }
+    }
+
+    &__icon {
+      background-color: $fx-text;
+      color: $fx-black;
+      padding: 15px;
+      width: 25px;
+      height: 25px;
+    }
+
   }
 }

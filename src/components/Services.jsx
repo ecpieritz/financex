@@ -30,19 +30,19 @@ function Services() {
 
         <div className="row fx-services__infos">
           <div className="col-lg-4">
-            <FontAwesomeIcon icon={faLocationDot} />
+            <FontAwesomeIcon className="fx-services__infos__icon" icon={faLocationDot} />
             <h3>Local business finance</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut  </p>
             <a className="fx-btn text-btn" href="#!"> Learn more <FontAwesomeIcon icon={faArrowRightLong} /></a>
           </div>
           <div className="col-lg-4">
-            <FontAwesomeIcon icon={faGlobe} />
+            <FontAwesomeIcon className="fx-services__infos__icon" icon={faGlobe} />
             <h3>Built for global payments</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut  </p>
             <a className="fx-btn text-btn" href="#!"> Learn more <FontAwesomeIcon icon={faArrowRightLong} /></a>
           </div>
           <div className="col-lg-4">
-            <FontAwesomeIcon icon={faSignal} />
+            <FontAwesomeIcon className="fx-services__infos__icon" icon={faSignal} />
             <h3>Make internet of Money</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut  </p>
             <a className="fx-btn text-btn" href="#!"> Learn more <FontAwesomeIcon icon={faArrowRightLong} /></a>
