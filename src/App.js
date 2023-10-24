@@ -7,10 +7,11 @@ import Benefits from "./components/Benefits";
 import Services from "./components/Services";
 import Customers from "./components/Customers";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
       <HeroBanner />
       <main>
@@ -21,7 +22,8 @@ function App() {
         <Customers />
         <Contact />
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
 
