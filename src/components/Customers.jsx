@@ -1,10 +1,15 @@
 import React from 'react'
+import CustomersCarousel from './CustomersCarousel'
 
 function Customers() {
   return (
-    <section className="fx-customers">
+    <section className="fx-customers" id='customers'>
       <div className="container-fluid">
-        customers
+        <h4>Our Costumers</h4>
+        <h2>Global businesses<br/>
+          love FinanceX</h2>  
+
+        <CustomersCarousel />
       </div>
     </section>
   )
