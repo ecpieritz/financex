@@ -25,9 +25,10 @@ body {
     transition: transform .3s ease-in-out;
   }
 
-  &:hover{
+  &:hover {
     color: $fx-green;
     text-decoration: none;
+
     &::before {
       transform-origin: left;
       transform: scaleX(1);
@@ -36,82 +37,131 @@ body {
 }
 
 .fx-btn {
-  &.outline{
+  &.outline {
     border: 2px solid $fx-green;
-  color: $fx-green;
-  overflow: hidden;
-  padding: 1rem 2rem;
-  position: relative;
-  text-decoration: none;
-  transition: .2s transform ease-in-out;
-  will-change: transform;
-  z-index: 1;
-
-  svg{
-    margin-left: 10px;
-  }
-  
-  &::after{
-    background-color: $fx-green;
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    transform: translate(-50%, 50%) rotate(10deg);
-    transform-origin: top left;
-    transition: .2s transform ease-out;
+    color: $fx-green;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: .2s transform ease-in-out;
     will-change: transform;
-    z-index: -1;
-  }
-    
-  &:hover{
-    &::after{
-    transform: translate(0, 0);
+    z-index: 1;
+
+    svg {
+      margin-left: 10px;
+    }
+
+    &::after {
+      background-color: $fx-green;
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(-50%, 50%) rotate(10deg);
+      transform-origin: top left;
+      transition: .2s transform ease-out;
+      will-change: transform;
+      z-index: -1;
+    }
+
+    &:hover {
+      &::after {
+        transform: translate(0, 0);
+      }
+    }
+
+    &:hover {
+      border: 2px solid transparent;
+      color: $fx-black;
+      transform: scale(1.05);
+      will-change: transform;
+      text-decoration: none;
     }
   }
-    
-  &:hover{
-    border: 2px solid transparent;
+
+  &.outline-black {
+    border: 2px solid $fx-black;
     color: $fx-black;
-    transform: scale(1.05);
-    will-change: transform;
+    background-color: $fx-green;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
     text-decoration: none;
-  }
+    transition: .2s transform ease-in-out;
+    will-change: transform;
+    z-index: 1;
+
+    svg {
+      margin-left: 10px;
+    }
+
+    &::after {
+      background-color: $fx-black;
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(-80%, 80%) rotate(10deg);
+      transform-origin: top left;
+      transition: .2s transform ease-out;
+      will-change: transform;
+      z-index: 5;
+    }
+
+    &:hover {
+      &::after {
+        z-index: -1;
+        transform: translate(0, 0);
+      }
+    }
+
+    &:hover {
+      border: 0;
+      color: $fx-text;
+      transform: scale(1.05);
+      will-change: transform;
+      text-decoration: none;
+    }
   }
 
-  &.modal-btn{
-  background-color: transparent;
-  padding: 0;
-  color: $fx-green;
-  outline: none;
-  border: none;
-  width: 40px;
-  height: 40px;
-
-  svg{
+  &.modal-btn {
+    background-color: transparent;
+    padding: 0;
+    color: $fx-green;
+    outline: none;
+    border: none;
     width: 40px;
     height: 40px;
-  }
-  &:hover{
-    color: $fx-green-light;
-  }
+
+    svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    &:hover {
+      color: $fx-green-light;
+    }
   }
 
-  &.text-btn{
+  &.text-btn {
     color: $fx-text;
     font-weight: 700;
     font-size: 16px;
     outline: none;
     text-decoration: none;
 
-    svg{
+    svg {
       margin-left: 10px;
     }
 
-    &:hover{
+    &:hover {
       color: $fx-text-dark;
     }
   }

@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactForm from './ContactForm'
 
 function Contact() {
   return (
@@ -7,6 +8,7 @@ function Contact() {
         <h4>Our Costumers</h4>
         <h2>Let’s grow your business, together!</h2>  
 
+        <ContactForm />
       </div>
     </section>
   )

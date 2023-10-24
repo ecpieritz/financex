@@ -3,7 +3,16 @@
 
   .container-fluid{
     background-color: $fx-green;
-    padding: 60px;
+    padding: 60px 60px 150px;
     color: $fx-black;
+
+    textarea{
+      height: 200px;
+    }
+
+    .fx-btn{
+      float: right;
+      margin-top: 40px;
+    }
   }
 }
